@@ -1,0 +1,9 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+transformers>=4.44.0
+# For Apple Silicon GPU acceleration (optional), install torch with MPS support
+# See https://pytorch.org/get-started/locally/ for best command per platform
+torch>=2.2.0
+pillow>=10.0.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
